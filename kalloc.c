@@ -15,6 +15,7 @@ extern char end[]; // first address after kernel loaded from ELF file
 
 struct run {
   struct run *next;
+
 };
 
 struct {
